@@ -2,10 +2,13 @@
   "name": "serve-uno",
   "version": "1.0.0",
   "description": "curso coder",
-  "main": "index.js",
+  "main": "index_express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index_express.js",
+    "start": "nodemon index_express.js"
   },
+  "type": "commonjs",
   "keywords": [
     "NPM",
     "EXPRESS"
