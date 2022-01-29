@@ -1,4 +1,4 @@
-const fs = require('fs');
+/* const fs = require('fs');
 const ruta = 'C:/Users/FERNANDO/Desktop/Nicolas beltrao/product.txt'; 
 
 module.exports = class Contenedor {  
@@ -85,3 +85,33 @@ module.exports = class Contenedor {
 }
 
 }
+ */
+
+
+
+
+
+
+
+
+
+// entrega 4
+
+/* const res = require("express/lib/response");
+const path = require("path");
+const express = requiere("express");
+const app = express();
+const PORT = 8080;
+
+const server = app.listen(PORT, () => {
+    console.log(`server on http://localhost:${PORT}`)
+});
+
+app.get("/", (req, res, next) => {
+    console.log(req.params);
+    res.sendFile(path.join(__dirname + "/index.js"));
+});
+
+
+
+server.on("error", error => console.log(error)); */

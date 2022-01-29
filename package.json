@@ -5,8 +5,8 @@
   "main": "index_express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index_express.js",
-    "start": "nodemon index_express.js"
+    "dev": "nodemon src/index_express.js",
+    "start": "nodemon src/index_express.js"
   },
   "type": "commonjs",
   "keywords": [
@@ -16,7 +16,9 @@
   "author": "Nicolas Bernardes",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "underscore": "^1.13.2"
   }
 }
