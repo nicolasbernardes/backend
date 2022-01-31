@@ -16,5 +16,5 @@ const server = app.listen(PORT, () => {
 
 
 //routes
-/* app.use(require('./routes/index')); */
+/* app.use('/api/home',require('./routes/index')); */
 app.use('/api/product',require('./routes/product'));
